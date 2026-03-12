@@ -423,7 +423,7 @@ export class TaskController {
   @ApiOperation({
     summary: "Submit a DCR for a task",
     description:
-      "Submits a DCR (Design Change Request) for a specific task. Requires authentication and appropriate permissions. Accepts multipart/form-data for DCR file uploads.",
+      "Submits a DCR (Design Completion Report) for a specific task. Requires authentication and appropriate permissions. Accepts multipart/form-data for DCR file uploads.",
   })
   @ApiBearerAuth("Authorization")
   @ApiHeader({
